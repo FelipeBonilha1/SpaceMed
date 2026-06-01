@@ -99,7 +99,8 @@ SpaceMed/
 
 ```bash
 # A partir da raiz do projeto (pasta SpaceMed)
-javac -d out -sourcepath src src/app/Main.java
+javac -encoding UTF-8 -d out -sourcepath src src/app/Main.java
+java -cp out app.Main
 ```
 
 ### Execução
@@ -285,5 +286,26 @@ O projeto tem bases sólidas para escalar. Possíveis evoluções incluem:
 - **Integração com IoT**: recebimento de dados de dispositivos médicos simples (oxímetros, termômetros) via satélite;
 - **Notificações em tempo real**: integração com serviços de SMS ou push notification para alertas de emergência;
 - **Relatórios avançados**: análise estatística de triagens, doenças mais frequentes por comunidade e efetividade do atendimento.
+
+## 6. Scripts Disponíveis
+
+O projeto possui alguns scripts auxiliares para facilitar a compilação e execução:
+
+* `compilar.ps1`: script de compilação para PowerShell.
+* `compilar.sh`: script de compilação para Linux/macOS/Git Bash.
+* `executar.bat`: script de execução para Windows.
+
+> Observação: o sistema utiliza `Scanner` para entrada de dados. Por isso, deve ser executado em um terminal interativo, como CMD, PowerShell, Git Bash ou terminal da IDE. Ambientes automáticos sem entrada de teclado podem encerrar a execução ao tentar ler uma opção do menu.
+
+---
+
+## 11. Integrantes
+
+| Nome               | RM      |
+| ------------------ | ------- |
+| Felipe Bonilha     | RM 562356|
+| Joan Campos        | RM 562913|
+| Felipe Rodrigues   | RM|
+
 
 #RM 
