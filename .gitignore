@@ -1,0 +1,83 @@
+# ============================================================
+#  .gitignore — SpaceMed (Java puro, sem Maven/Gradle/Spring)
+# ============================================================
+
+# ------------------------------------
+# Arquivos compilados Java
+# ------------------------------------
+*.class
+*.jar
+*.war
+*.ear
+
+# ------------------------------------
+# Pastas de saída de compilação
+# ------------------------------------
+out/
+bin/
+build/
+target/
+
+# ------------------------------------
+# IDEs — IntelliJ IDEA
+# ------------------------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ------------------------------------
+# IDEs — Eclipse / STS
+# ------------------------------------
+.classpath
+.project
+.settings/
+bin/
+
+# ------------------------------------
+# IDEs — VS Code
+# ------------------------------------
+.vscode/
+
+# ------------------------------------
+# IDEs — NetBeans
+# ------------------------------------
+nbproject/
+nbbuild/
+nbdist/
+nb-configuration.xml
+
+# ------------------------------------
+# Sistema Operacional — macOS
+# ------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ------------------------------------
+# Sistema Operacional — Windows
+# ------------------------------------
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ------------------------------------
+# Sistema Operacional — Linux
+# ------------------------------------
+*~
+.fuse_hidden*
+.Trash-*
+
+# ------------------------------------
+# Arquivos temporários e de log
+# ------------------------------------
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+hs_err_pid*
+replay_pid*
