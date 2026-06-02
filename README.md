@@ -305,7 +305,7 @@ O projeto possui alguns scripts auxiliares para facilitar a compilação e execu
 | ------------------ | ------- |
 | Felipe Bonilha     | RM 562356|
 | Joan Campos        | RM 562913|
-| Felipe Rodrigues   | RM|
+| Felipe Rodrigues   | RM 565341|
 
 
 #RM 
